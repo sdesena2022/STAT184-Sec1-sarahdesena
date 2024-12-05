@@ -1,0 +1,20 @@
+# Directory Metadata
+
+This folder contains the primary files and subdirectories for the Armed Forces Data Cleaning and Analysis project. The purpose of this directory is to hold all the data, code, and documentation related to the project.
+
+## Folder Structure:
+- **data/**: This folder contains the raw and cleaned datasets used in the project.
+  - **armed_forces_data.csv**: The raw dataset containing military personnel and budget data.
+  - **armed_forces_clean.csv**: The cleaned version of the dataset after preprocessing.
+  
+- **scripts/**: Contains the R scripts used for data cleaning, analysis, and visualization.
+  - **data_cleaning.R**: Script for cleaning the raw dataset (removes missing values, reshapes data, etc.).
+  - **eda_analysis.R**: Script for performing exploratory data analysis and generating plots.
+  
+- **figures/**: Contains the plots generated during analysis.
+  - **personnel_over_time.png**: A line plot showing the trend of military personnel over time.
+
+- **directory_metadata.txt**: This file, which provides a summary of the folder contents.
+
+## Purpose:
+The purpose of this directory is to organize and store the files necessary for analyzing and visualizing military data. It includes raw data files, cleaned datasets, scripts for processing the data, and generated figures for analysis.
